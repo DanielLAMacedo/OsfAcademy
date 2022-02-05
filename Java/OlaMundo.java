@@ -1,6 +1,12 @@
-package OsfAcademy;
+import java.io.PrintStream;
+
 public class OsfAcademy {
-    public static void main(String[] args) {
-        System.out.println('Olá Mundo!');
+        /**
+         *
+         */
+        private static final PrintStream OUT = System.out;
+
+        public static void main(String[] args) {
+            OUT.println("Olá Mundo!");
     }
 }
